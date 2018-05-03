@@ -1,0 +1,1 @@
+C:\Xamarin\Forms\EvaluacionForms\EvaluacionForms\EvaluacionForms.UWP\EvaluacionForms.UWP.csproj;x86

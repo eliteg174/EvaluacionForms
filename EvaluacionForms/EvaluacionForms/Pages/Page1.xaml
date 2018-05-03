@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Create Account"
+             x:Class="EvaluacionForms.Page1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Insert your information"
+                       FontSize="20"
+                       HorizontalOptions="Center"/>
+
+                <Entry x:Name="entName"
+                       Placeholder="Name" />
+
+                <Entry x:Name="entAccName"
+                       Placeholder="Account Name" />
+
+                <Entry x:Name="entPhone"
+                       Placeholder="Phone Number"
+                       Keyboard="Numeric"/>
+
+                <Entry x:Name="entMail"
+                       Placeholder="email@"
+                       Keyboard="Email"/>
+
+                <Entry x:Name="entPassword"
+                       Placeholder="Password"
+                       IsPassword="True"/>
+
+                <Entry x:Name="entConfirmPassword"
+                       Placeholder="Confirm Password"
+                       IsPassword="True"/>
+
+
+
+                <StackLayout Orientation="Horizontal" 
+                             HorizontalOptions="Center">
+                    
+                    <Button x:Name="btnClear"
+                            Text="Clear Sections"
+                            FontSize="10"/>
+
+                    <Button x:Name="btnContinue"
+                            Text="Create Account"
+                            FontSize="10"/>
+
+                </StackLayout>
+
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

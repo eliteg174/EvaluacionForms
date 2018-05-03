@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Details"
+             x:Class="EvaluacionForms.Pages.Page3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical"
+                         HorizontalOptions="Start"
+                         Padding="15">
+
+                <Label x:Name="lblName" 
+                       VerticalTextAlignment="Start"/>
+                <Label x:Name="lblDescripcion"
+                       VerticalTextAlignment="Start"/>
+                <Label x:Name="lblCategory"
+                       VerticalTextAlignment="Start"/>
+                <Label x:Name="lblRating" 
+                       VerticalTextAlignment="Start"/>
+                <StackLayout Spacing="20" BackgroundColor="Black">
+                    <Image x:Name="imgImage"/>
+                </StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
